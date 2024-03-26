@@ -35,6 +35,7 @@ export interface CharactersRes {
   };
   results: Characters;
 }
+export type Episodes = Episode[];
 export interface Episode{
 id:number,
 name:string,
