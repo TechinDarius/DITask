@@ -10,4 +10,6 @@ import { Character } from '../../types';
   templateUrl: './details.component.html',
   styleUrl: './details.component.scss',
 })
-export class DetailsComponent {}
+export class DetailsComponent {
+  
+}
