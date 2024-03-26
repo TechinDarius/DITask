@@ -35,3 +35,12 @@ export interface CharactersRes {
   };
   results: Characters;
 }
+export interface Episode{
+id:number,
+name:string,
+air_date:string,
+apisode:string,
+characters:string[],
+url:string,
+created:string,
+}

@@ -1,1 +1,4 @@
-<p>episodes works!</p>
+<p>episodes NOT works!</p>
+@for (episode of episodes; track episode.id) {
+  <app-episode [episode]="episode" />
+}
