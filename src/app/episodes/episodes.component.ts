@@ -20,6 +20,6 @@ export class EpisodesComponent implements OnInit {
   ngOnInit(): void {
     this.episodeService
       .getEpisodes()
-      .subscribe((response) => (this.episodes = response.name));
+      .subscribe((response) => (this.episodes = response.results));
   }
 }
